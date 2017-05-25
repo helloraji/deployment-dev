@@ -1,0 +1,8 @@
+---
+- name: challenge
+  hosts: prod
+
+  tasks:
+     - debug: var=ansible_all_ipv4_addresses
+     - name: get hostname
+       command: ansible_hostname
