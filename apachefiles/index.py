@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-#this is test line
 print "Content-Type: text/html"
 print
 print """\
